@@ -8,7 +8,40 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter.woff2') format('woff2');
+  font-weight: 400; /* adjust if needed */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Platin';
+  src: url('/fonts/platin.otf') format('opentype');
+  font-weight: 400; /* adjust if needed */
+  font-style: normal;
+  font-display: swap;
+}
+
+:root{
+  --font-inter:"Inter";
+  --font-platin:"Platin"
+}
+
 body {
   font-family: 'Colfax', sans-serif;
   background: #fffff8;
+  font-feature-settings: "kern"
+}
+
+.font-inter{
+  @apply font-sans;
+   font-family: var(--font-inter);
+    font-feature-settings: "kern"
+}
+
+.font-platin{
+  @apply font-sans;
+   font-family: var(--font-platin);
+    
 }

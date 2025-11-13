@@ -8,7 +8,7 @@ export default function CTASection() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16">
 
         {/* Left text */}
-        <h2 className="text-3xl md:text-[3.75rem] font-[Monotype] font-normal leading-tight text-white max-w-3xl">
+        <h2 className="text-3xl w-full md:w-[40%] md:text-[3.75rem] font-platin font-normal leading-tight text-white max-w-3xl">
           Welcome to the global pre-IPO marketplace.
         </h2>
 
@@ -16,28 +16,28 @@ export default function CTASection() {
         <div className="flex items-center gap-12">
           {/* Left CTA */}
           <div className="flex flex-col items-center text-white">
-            <p className="text-[14px] mb-2 font-medium text-white">Got a question?</p>
-            <p className="text-[14px] -mt-2 mb-4 font-medium text-white">Let's chat</p>
+            <p className="text-[1.125rem] font-inter mb-2 font-medium text-white">Got a question?</p>
+            <p className="text-[1.125rem] font-inter mb-2 font-medium text-white">Let's chat</p>
 
             <Link
               href="#"
-              className="bg-white text-[#FF5A5A] px-8 py-3 rounded-full font-semibold text-[14px] hover:bg-[#ffe9e9] transition"
+              className="bg-white min-w-[200px] font-inter flex justify-center items-center min-h-[60px] text-[#FF5A5A] rounded-full font-semibold text-[18px] hover:bg-[#ffe9e9] transition"
             >
               Demo
             </Link>
           </div>
 
           {/* Divider */}
-          <div className="hidden lg:block w-[1px] h-16 bg-white/50" />
+          <div className="hidden lg:block w-px h-16 bg-white/50" />
 
           {/* Right CTA */}
           <div className="flex flex-col items-center text-white">
-            <p className="text-[14px] mb-2 font-medium text-white">Start trading</p>
-            <p className="text-[14px] -mt-2 mb-4 font-medium text-white">today</p>
+            <p className="text-[1.125rem] font-inter mb-2 font-medium text-white">Start trading</p>
+            <p className="text-[1.125rem] font-inter mb-2 font-medium text-white">today</p>
 
             <Link
               href="#"
-              className="bg-white text-[#FF5A5A] px-8 py-3 rounded-full font-semibold text-[14px] hover:bg-[#ffe9e9] transition"
+              className="bg-white min-w-[200px] font-inter flex justify-center items-center min-h-[60px] text-[#FF5A5A] rounded-full font-semibold text-[18px] hover:bg-[#ffe9e9] transition"
             >
               Sign Up
             </Link>
