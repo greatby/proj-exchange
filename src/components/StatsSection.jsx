@@ -37,7 +37,7 @@ export default function StatsSection() {
         {stats.map((item, index) => (
           <div
             key={index}
-            className={`${item.bg} rounded-[6px_6px_0px_0px] p-[2.5rem] flex flex-col items-center text-center`}
+            className={`${item.bg} rounded-[6px_6px_0px_0px] p-10 flex flex-col items-center text-center`}
           >
             <h3 className="text-[2.75rem] font-inter font-medium text-[#003E47]">{item.value}</h3>
             <p className="text-gray-800 font-inter mt-3 text-[1.125rem] font-normal leading-snug">{item.label}</p>
